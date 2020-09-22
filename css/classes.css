@@ -1,0 +1,12 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    /* border: 2px solid navy; */
+}
+.flex {
+    display: flex;
+}
+.btn {
+    border: none;
+    outline: none;
+}

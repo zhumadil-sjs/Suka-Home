@@ -1,0 +1,90 @@
+.hero {
+    background-image: url(./images/bg.png);
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+} 
+.hero__content {
+    margin-top: 150px;
+}
+.sidebar {
+    width: 45%;
+}
+.get__connected {
+    margin-bottom: 34px;
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Work Sans";
+}
+.title {
+    margin-bottom: 34px;
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "work sans";
+}
+.sub__title {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Karla";
+    margin-bottom: 40px;
+}
+.hero__img__bloc {
+    width: 55%;
+}
+.hero__img {
+    max-width: 100%;
+}
+.hero__button {
+    margin-bottom: 100px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid white;
+    margin-right: 20px;
+    font-size: 17px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Karla";
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200%;  
+}
+.hero__button:hover {
+    background: linear-gradient(to right,rgb(31, 151, 155), #2fb2c4, rgb(143, 245, 248));
+}
+.slider {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background: none;
+    margin: 0, 10px, 0, 10px;
+    position: relative;
+    opacity: 0.4;
+}
+.slider:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.slider__items {
+    position: absolute;
+    top: 17px;
+}
+.slider:active {
+    transform: scale(0.9);
+}
+.l {
+    left: 17px;
+}
+.r {
+    right: 17px;
+}
+.m {
+    margin-right: 20px;
+}
