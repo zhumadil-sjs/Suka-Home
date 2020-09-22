@@ -1,0 +1,48 @@
+header {
+    position: absolute;
+    top: 30px;
+    z-index: 777;
+    margin: auto; 
+}
+.header{
+    margin-left: 315px;
+}
+.nav {
+    padding-left: 0px;
+}
+.nav__items {
+    margin-right: 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Karla";
+}
+.header__nav {
+    margin-left: 85px;
+}
+.header__buttons {
+    margin-left: 260px;
+    height: 60px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.button__lang {
+    width: 80px;
+    height: 30px;
+    margin-right: 28px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.button__lang:active {
+    transform: scale(0.96)
+}
+.arror {
+    width: 12px;
+    height: 8px;
+}
+.header__profile:active {
+    transform: scale(0.95);
+}
