@@ -30,7 +30,8 @@ header {
     width: 80px;
     height: 30px;
     margin-right: 28px;
-    background: none;
+    background: transparent;
+    border: none;
     color: white;
     font-size: 17px;
     line-height: 18px;

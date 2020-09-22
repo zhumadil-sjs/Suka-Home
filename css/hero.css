@@ -63,7 +63,7 @@
     height: 50px;
     border-radius: 25px;
     border: 2px solid white;
-    background: none;
+    background: transparent;
     margin: 0, 10px, 0, 10px;
     position: relative;
     opacity: 0.4;
