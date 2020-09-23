@@ -1,6 +1,7 @@
 .services {
     background: url('../../img/back.png') center no-repeat;
-margin: auto;
+    margin: auto;
+    width: 1920px;
 }
 
 .services__content {
@@ -33,7 +34,7 @@ margin: auto;
 }
 
 .col__content {
-    position: absolute;
+
     background: url('../../img/col-back.png') center no-repeat;
     box-sizing: border-box;
     width: 270px;
@@ -42,6 +43,7 @@ margin: auto;
     filter: drop-shadow(0 0 10px rgba(191, 191, 191, 0.15));
     background-color: #ffffff;
 }
+
 .services__icon,
 .services__text,
 .services__text2,
