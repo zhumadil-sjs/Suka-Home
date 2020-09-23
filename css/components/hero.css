@@ -1,0 +1,77 @@
+.hero {
+    position: relative;
+    max-width: 110px;
+    color: white;
+}
+.hero__content {
+    background: url('../../img/bg.png') center no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    width: 1926px;
+    box-sizing: border-box;
+
+}
+.button__lang {
+    font-size: 17px;
+line-height: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Karla";
+background: none;
+border: none;
+outline: none;
+}
+.hero__subtitle {
+    white-space: nowrap;
+    padding-left: 375px;
+    font-size: 62px;
+}
+
+.hero__title {
+    margin-left: 375px;
+    margin-top: 32px;
+    font-size: 44px;
+}
+
+.hero__texter {
+    margin-left: 375px;
+    margin-top: 38px;
+    font-size: 17px;
+}
+
+.hero__img {
+    padding-left: 840px;
+    padding-top: 148px;
+    width: 894px;
+    height: 684px;
+}
+.hero__button,
+.hero__button2 {
+border: none;
+outline: none;
+width: 200px;
+height: 58px;
+border-radius: 29px;
+background-image: linear-gradient(-90deg, #93e599 0%, #17adc9 100%);
+
+}
+.hero__button3, 
+.hero__button4{
+width: 50px;
+height: 50px;
+border-radius: 25px;
+}
+.hero__button3{
+    background-color: rgba(98,122,252,0);
+border: 2px solid #cc56f1;
+}
+.hero__button4{
+    background-color: rgba(98,122,252,0);
+    border: 2px solid #ffffff;
+}
+.expand__button2,
+.expand__button3{
+height: 13px;
+width: 9px;
+color: white;
+}

@@ -1,0 +1,10 @@
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.col-3{
+    width: 25%;
+}
