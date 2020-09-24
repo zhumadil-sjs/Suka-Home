@@ -14,7 +14,7 @@
     align-self: center;
     margin-right: 98px;
 }
-.title {
+.test__title {
     margin: 0 0 64px 0;
     font-size: 45px;
     line-height: 56px;
@@ -30,6 +30,11 @@
     width: 455px;
     height: 515px;
     margin: 100px 30px 0 0;
+    transition: 0.3s;
+}
+.test:hover {
+    width: 485px;
+    transition: 0.3s;
 }
 .tester__ikon {
     margin: 55px 185px 38px 55px;
@@ -60,4 +65,103 @@
     font-weight: 400;
     font-family: "Karla";
     margin-left: 55px;
+}
+/* clients content */
+.sidebar__img {
+    width: 45%;
+    position: relative;
+}
+.faq__img {
+    position: absolute;
+    margin: 120px 0 0 325px; 
+}
+.FAQ__sidebar {
+    width: 570px;
+    margin: 137px 0 0 100px;
+}
+.faq__ikon {
+    font-size: 18px;
+    line-height: 25px;
+    color: #a841e6;
+    font-weight: 700;
+    font-family: "Karla";
+    margin: 0 0 37px 0;
+}
+.faq__title {
+    width: 400px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #010c39;
+    font-weight: 700;
+    font-family: "Work Sans";
+    margin: 0 0 40px 0;
+}
+.faq__line {
+    width: 66px;
+    height: 8px;
+    margin: 0 0 45px 0;
+}
+.faq__items {
+    width: 570px;
+    height: 175px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 7.5px rgba(0,0,0,0.08));
+    background-color: #ffffff;
+}
+.items__theme {
+    margin: 0 0 25px 0;
+    font-size: 21px;
+    line-height: 30px;
+    color: #010c39;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+.items__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #787878;
+    font-weight: 400;
+    font-family: "Karla";
+}
+.sidebar__items {
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.sidebar__item{
+    padding-top: 1px;
+    padding-left: 30px;
+    background: url(./images/clients/bg_sidebar_item.png);
+}
+.sidebar__item_theme {
+    display: block;
+    margin: 34px 0 0 40px;
+    padding:0 ;
+    font-size: 21px;
+    line-height: 30px;
+    color: #010c39;
+    font-weight: 600;
+    font-family: "Work Sans";
+    overflow: hidden;
+}
+.sidebar__submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.5s;
+}
+.submenu_link {
+    background-color: aliceblue;
+    font-size: 16px;
+    line-height: 26px;
+    color: #787878;
+    font-weight: 400;
+    font-family: "Karla";
+    transition:  0.2s ease-in;
+}
+.submenu_link:hover {
+    background-color: #d2f3f0;
+}
+.sidebar__submenu:target {
+    max-height: 10rem;
 }
