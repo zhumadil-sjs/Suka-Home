@@ -2,6 +2,7 @@
     background: url('../../img/back.png') center no-repeat;
     margin: auto;
     width: 1920px;
+    height: 930px;
 }
 
 .services__content {
@@ -20,6 +21,7 @@
 }
 
 .services__subtitle {
+    padding-top: 37px;
     margin: 0;
     font-size: 45px;
     line-height: 53px;
@@ -29,12 +31,16 @@
     text-align: center;
 }
 
+.col-3__content {
+    padding: 89px 0 60px;
+}
+
 .linie {
+    padding-top: 39px;
     text-align: center;
 }
 
 .col__content {
-
     background: url('../../img/col-back.png') center no-repeat;
     box-sizing: border-box;
     width: 270px;
@@ -86,4 +92,30 @@
     font-weight: 700;
     font-family: "Karla";
     text-decoration: none;
+}
+
+.services__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    background-image: linear-gradient(130deg, #7525d7 0%, #f169fd 100%);
+    font-size: 17px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Karla";
+    text-align: center;
+    text-decoration: none;
+    padding: 22px 42px 22px;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
