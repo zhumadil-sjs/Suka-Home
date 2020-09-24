@@ -1,0 +1,90 @@
+.trends {
+    max-width: 1170px;
+    padding-top: 42px;
+    height: 2000px;
+}
+.trends__content{
+    background: url('../images/fon.png') center;
+   background-size: cover;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 1920px;
+    height: 561px
+}
+.trends__title {
+    margin: -71px 14px 167px 85px; 
+   font-size: 50px;
+}
+.btn__cloe {
+    margin: 131px 0px 0px -420px;
+    border-radius: 37px;
+    height: 58px;
+    padding: 0px 60px 0px;
+}
+/*.text__title {
+    color: var(--violet);
+    margin-left: 375px;
+    padding-top: 122px;
+    font-size: 20px;
+}*/
+.text__sub {
+    color: var(--blye);
+    margin-left: 375px;
+   font-size: 50px
+} 
+.trends__name {
+    color:var(--violet);
+}
+.trends__suptitle {
+    color: var(--blye);
+   /* font-size: 25px;*/
+}
+.trends__text{
+    color: var(--gray);
+    padding-top: 26px;
+}
+.trends__info {
+   /* margin: -523px 0px 0px 42px;   
+   text-align: center;
+   display: flex;*/
+   
+}
+.trends__imgone {
+    margin-left: 362px;
+}
+.trends__imgtwo {
+    margin-bottom: 16px;
+}
+.trends__img {
+    display: flex;
+    align-items: center;
+}
+.trends__team {
+    background: url('../images/team.png') center;
+    background-size: cover;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 1920px;
+    height: 829px;
+    margin-top: 119px;
+}
+.trends__members {
+    color: var(--violet);
+    font-size: 20px; 
+    margin-left: -10px;
+}
+.trends__our {
+    color: var(--blye);
+    margin-left: -84px;
+    font-size: 43px;
+}
+.trends__general {
+    margin-left: 895px;
+    padding-top: 83px;
+}
+.trends__imgteam {
+    margin-left: 30px;
+}
+.trends__people {
+    margin-left: 300px;
+}

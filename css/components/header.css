@@ -1,0 +1,44 @@
+/*.header {
+  padding-top: 42px;
+  margin-left: 375px;
+ 
+  }
+  .header__content {
+    margin-left: 86px;
+    padding-top: 26px;
+  }
+  .nav__menu {
+    align-items: center;
+    margin-left: 90px;
+    padding: 0;
+  }
+  .nav__item {
+    margin-right: 50px;
+    margin-left: 42px;
+  
+  }
+  .button__lang {
+    margin-left: 310px;
+
+  }
+  .header__title {
+    font-size: 68px;
+  }
+  .header__get {
+    font-size: 50px;
+    margin: -36px 4px -8px 86px;
+  }
+  .header__we {
+    margin: 0px -10px 9px 86px;
+  }
+  .header__people {
+    margin-left: 700px;
+  }
+  header {
+    position: absolute;
+    top: 30px;
+    z-index: 777;
+    margin: auto; */
+    .header__hero {
+      padding-left: 1100px;
+    }
