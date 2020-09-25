@@ -1,13 +1,18 @@
 .website__content {
     padding-top: 100px;
-    width: 1920px;
     box-sizing: border-box;
+    border: 2px solid green;
 }
-
+.img{
+    padding-left: -281px;
+}
 .col-6 {
-    width: 50%
+    width: 50%;
 }
-
+.col__title{
+    margin: 0;
+    padding: 0;
+}
 .w-text {
     font-size: 18px;
     line-height: 53px;
@@ -17,23 +22,33 @@
 }
 
 .w-text2 {
-    background: url(//img/back2.png) center no-repeat;
+    margin: 0;
     font-size: 45px;
     line-height: 55px;
     color: #010c39;
     font-weight: 700;
     font-family: "Work Sans";
 }
+
+.img1 {
+    margin: 0;
+    padding-top: 29px;
+}
+
 .w-text3 {
+    margin: 0;
+    padding-top: 29px;
     font-size: 16px;
     line-height: 26px;
     color: #787878;
     font-weight: 400;
     font-family: "Karla";
 }
+
 .customer__content {
-    padding-top: 50px;
+    padding-top: 20px;
 }
+
 .customer {
     margin: 0;
     padding: 0;
@@ -41,9 +56,12 @@
     width: 172px;
     height: 172px;
     border-radius: 4px;
-    background-color: #f5fbff;}
+    background-color: #f5fbff;
+}
 
 .support {
+    margin: 0;
+    padding: 0;
     width: 37px;
     height: 41px;
     align-items: center;
@@ -52,38 +70,45 @@
 }
 
 .number {
+    margin: 0;
+    padding: 0;
     width: 91px;
     height: 26px;
-padding-left: 41px;
-padding-top: 21px;
-font-size: 38px;
-line-height: 30px;
-color: #a841e6;
-font-weight: 700;
-font-family: "Work Sans", sans-serif;
-text-align: center;
+    padding-left: 41px;
+    padding-top: 21px;
+    font-size: 38px;
+    line-height: 30px;
+    color: #a841e6;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
 }
 
 .text {
+    margin: 0;
+    padding: 0;
     height: 16px;
     padding-top: 21px;
     font-size: 13px;
-line-height: 26px;
-color: #787878;
-font-weight: 400;
-font-family: "Karla", sans-serif;
-text-align: center;
+    line-height: 26px;
+    color: #787878;
+    font-weight: 400;
+    font-family: "Karla", sans-serif;
+    text-align: center;
 }
 
-.customer__2 { 
-padding: 0;
-margin: 0;
+.customer__2 {
+    padding: 0;
+    margin: 0;
     width: 172px;
     height: 172px;
     border-radius: 4px;
-    background-color: #f5fbff;}
+    background-color: #f5fbff;
+}
 
 .target {
+    margin: 0;
+    padding: 0;
     padding-top: 18px;
     width: 45px;
     height: 41px;
@@ -92,6 +117,8 @@ margin: 0;
 }
 
 .number__1 {
+    margin: 0;
+    padding: 0;
     padding-top: 20px;
     font-size: 38px;
     line-height: 30px;
@@ -102,6 +129,8 @@ margin: 0;
 }
 
 .text__1 {
+    margin: 0;
+    padding: 0;
     padding-top: 18px;
     font-size: 13px;
     line-height: 26px;

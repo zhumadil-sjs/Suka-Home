@@ -1,0 +1,145 @@
+.footer {
+    position: absolute;
+    background: url(../../img/footer-back.png);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 1920px;
+    height: 903px;
+}
+
+.footer__content {
+    padding-top: 326px;
+}
+
+.partner-icons2 {
+    padding-left: 82px;
+}
+
+.partner-icons3 {
+    padding-left: 60px;
+}
+
+.partner-icons4 {
+    padding-left: 85px;
+}
+
+.partner-icons5 {
+    padding-left: 100px;
+}
+
+.partner-icons6 {
+    padding-left: 67px;
+}
+
+
+.form {
+    padding-top: 114px;
+    font-size: 32px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Karla";
+}
+
+.form2 {
+    padding-top: 39px;
+}
+
+.form3 {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 38px;
+    color: #c5c5c5;
+    font-weight: 400;
+    font-family: "Karla";
+}
+
+.search__bar {
+    outline: none;
+    padding-left: 28px;
+    width: 398px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #0c1c5d;
+}
+
+.input__button {
+    position: absolute;
+    cursor: pointer;
+    margin-left: -115px;
+    width: 115px;
+    height: 63px;
+    border-radius: 5px;
+    background-image: linear-gradient(-90deg, #93e599 0%, #17adc9 100%);
+}
+
+.input__button:active {
+    transform: scale(0, 9);
+}
+.footer-nav-menu{
+    padding-top: 122px;
+    padding-left: 152px;
+    
+}
+.footer__menu{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+line-height: 38px;
+color: #c5c5c5;
+font-weight: 400;
+font-family: "Karla";
+margin: 0;
+padding: 0;
+}
+.footer__support{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Karla";
+}
+.footer__link
+{
+    text-decoration: none;
+    font-size: 15px;
+line-height: 38px;
+color: #c5c5c5;
+font-weight: 400;
+font-family: "Karla";
+    color: white;
+}
+.footer__menu2{
+    margin: 0;
+    padding: 0;
+    padding-left: 130px;
+
+}
+
+.footer__nav2{
+    padding-left: 130px;
+}
+.footer__nav3{
+    
+    padding-left: 90px;
+}
+.footer__social{
+    font-size: 21px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Karla";
+}
+.social__icon{
+    padding-top: 58px;
+}
+.footer__logo2{
+    padding-left: 20px;
+}
+.footer__logo3,
+.footer__logo4{
+padding-left: 15px;
+}
